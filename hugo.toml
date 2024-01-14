@@ -1,4 +1,4 @@
-baseURL = 'https://myblog-710.pages.dev/'
+baseURL = 'https://blog.kuytu.com/'
 languageCode = 'en-us'
 title = 'Turgut Simsek Blog'
 theme = 'air'
