@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://blog.kuytu.com/'
 languageCode = 'en-us'
 title = 'Turgut Simsek Blog'
 theme = 'PaperMod'
