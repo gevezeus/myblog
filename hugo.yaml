@@ -11,7 +11,7 @@ params:
         title: Turgut Şimşek # optional default will be site title
         subtitle: My Blog
         imageUrl: /pic/me.jpg # optional
-        imageTitle: "<title of image as alt>" # optional
+        imageTitle: Turgut Şimşek # optional
         imageWidth: 120 # custom size
         imageHeight: 120 # custom size
         # buttons:
