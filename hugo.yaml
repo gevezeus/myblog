@@ -8,8 +8,8 @@ params:
     defaultTheme: auto # to switch between dark or light according to browser theme
     profileMode:
         enabled: true
-        title: "<Title>" # optional default will be site title
-        subtitle: "This is subtitle"
+        title: Turgut Şimşek # optional default will be site title
+        subtitle: My Blog
         imageUrl: "<image link>" # optional
         imageTitle: "<title of image as alt>" # optional
         imageWidth: 120 # custom size
