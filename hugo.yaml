@@ -22,4 +22,10 @@ params:
 
     socialIcons: # optional
         - name: twitter
-          url: "https://twitter.com/geveZEUS/"
+          url: https://twitter.com/geveZEUS/
+        - name: linkedin
+          url: https://www.linkedin.com/in/turgutsimsek/
+        - name: github
+          url: https://github.com/gevezeus/
+        - name: lastfm
+          url: https://www.last.fm/user/gevezeus
