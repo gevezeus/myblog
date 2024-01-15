@@ -21,7 +21,5 @@ params:
         #     url: "https://github.com/"
 
     socialIcons: # optional
-        - name: "<platform>"
-            url: "<link>"
-        - name: "<platform 2>"
-            url: "<link2>"
+        - name: twitter
+            url: https://twitter.com/geveZEUS
