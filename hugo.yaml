@@ -1,6 +1,6 @@
 baseURL: https://blog.kuytu.com/
 languageCode: en-us
-title: Turgut Simsek Blog
+title: Turgut Şimşek
 theme: PaperMod
 params:
     # defaultTheme: light
@@ -9,16 +9,14 @@ params:
     profileMode:
         enabled: true
         title: Turgut Şimşek # optional default will be site title
-        subtitle: My Blog
+        # subtitle: My Blog
         imageUrl: /pic/me.jpg # optional
         imageTitle: Turgut Şimşek # optional
         imageWidth: 120 # custom size
         imageHeight: 120 # custom size
-        # buttons:
-        #     - name: Archive
-        #     url: "/archive"
-        #     - name: Github
-        #     url: "https://github.com/"
+        buttons:
+          - name: My Blog
+            url: "/posts"
 
     socialIcons: # optional
         - name: twitter
