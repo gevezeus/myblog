@@ -1,5 +1,5 @@
 +++
-title = 'CPU daki ALU ne iş yapar? ALU' nun ön beleği olsaydı ne olurdu?'
+title = "CPU daki ALU ne iş yapar? ALU' nun ön beleği olsaydı ne olurdu?"
 date = 2025-08-18T11:33:01+03:00
 draft = false
 author = "tsimsek"
