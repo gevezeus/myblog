@@ -7,7 +7,7 @@ comments = false
 image = ""
 menu = ""
 share = false
-slug = "first-post"
+<!-- slug = "first-post" -->
 tags = ["blog"]
 +++
 
