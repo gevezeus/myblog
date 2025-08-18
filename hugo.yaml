@@ -18,12 +18,12 @@ params:
           - name: My Blog
             url: "/posts"
 
-    social: # optional
-        - name: twitter
-          url: https://twitter.com/geveZEUS/
-        - name: linkedin
-          url: https://www.linkedin.com/in/turgutsimsek/
-        - name: github
-          url: https://github.com/gevezeus/
-        - name: lastfm
-          url: https://www.last.fm/user/gevezeus
+    socialIcons:   # <--- dikkat: "social" değil "socialIcons"
+      - name: Twitter
+        url: "https://twitter.com/geveZEUS/"
+      - name: LinkedIn
+        url: "https://www.linkedin.com/in/turgutsimsek/"
+      - name: GitHub
+        url: "https://github.com/gevezeus/"
+      - name: LastFM
+        url: "https://www.last.fm/user/gevezeus"

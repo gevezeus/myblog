@@ -11,7 +11,7 @@ slug = "first-post"
 tags = ["blog"]
 +++
 
-Elbette! Bilgisayarların temel çalışma mantığı **ikili sayı sistemi (binary)** yani **0 ve 1'ler** üzerine kuruludur. Bu sistem, elektrik sinyallerinin varlığı (1) veya yokluğu (0) şeklinde fiziksel olarak temsil edilir. Peki bu 0 ve 1'ler nasıl işleniyor? Adım adım açıklayalım:
+Bilgisayarların temel çalışma mantığı **ikili sayı sistemi (binary)** yani **0 ve 1'ler** üzerine kuruludur. Bu sistem, elektrik sinyallerinin varlığı (1) veya yokluğu (0) şeklinde fiziksel olarak temsil edilir. Peki bu 0 ve 1'ler nasıl işleniyor? Adım adım açıklayalım:
 
 ---
 
@@ -92,9 +92,9 @@ CPU, **makine kodları** (0 ve 1'lerden oluşan komutlar) ile çalışır. Örne
 
 Bu hiyerarşi sayesinde, karmaşık yazılımlar bile en basit elektrik sinyallerine indirgenerek işlenebilir.  
 
-"ALU işlemleri yapıyor anladım. peki aynı işlem bir daha ALU ya gelirse aynı işlemi daha önce hesapladığı için sonucu biliyor. bu işlemi tekrar mı yapar yoksa daha önce yaptığı sonucu mu döndürür?"
+`"ALU işlemleri yapıyor anladım. peki aynı işlem bir daha ALU ya gelirse aynı işlemi daha önce hesapladığı için sonucu biliyor. Bu işlemi tekrar mı yapar yoksa daha önce yaptığı sonucu mu döndürür?"`
 
-Bu çok ilginç bir soru! CPU'lar genellikle **aynı işlemi tekrar hesaplar**, çünkü ALU (Aritmetik Mantık Birimi) **durumsuz (stateless)** bir birimdir ve geçmiş işlemleri hatırlamaz. Ancak modern işlemciler, performansı artırmak için **önbellek (cache)** ve **sonuç tekrar kullanımı (reuse)** gibi optimizasyon teknikleri kullanır. Detaylı açıklayalım:
+CPU'lar genellikle **aynı işlemi tekrar hesaplar**, çünkü ALU (Aritmetik Mantık Birimi) **durumsuz (stateless)** bir birimdir ve geçmiş işlemleri hatırlamaz. Ancak modern işlemciler, performansı artırmak için **önbellek (cache)** ve **sonuç tekrar kullanımı (reuse)** gibi optimizasyon teknikleri kullanır. Detaylı açıklayalım:
 
 ---
 
@@ -164,6 +164,4 @@ Modern CPU'lar, ALU'nun her seferinde yeniden hesaplama yapmasının performans 
 - **Saf ALU**: Her işlemi sıfırdan hesaplar (geçmişi hatırlamaz).  
 - **Gerçek Dünya CPU'ları**: Önbellek, paralellik ve derleyici optimizasyonları sayesinde **aynı işlemi tekrar hesaplamaktan kaçınır**.  
 
-Yani teknik olarak ALU her seferinde hesaplar, ancak sistemin diğer bileşenleri bu sonucu **daha akıllıca yöneterek** performansı artırır. 😊  
-
-Başka sorunuz varsa bekliyorum!
+Yani teknik olarak ALU her seferinde hesaplar, ancak sistemin diğer bileşenleri bu sonucu **daha akıllıca yöneterek** performansı artırır. 😊

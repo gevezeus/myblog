@@ -1,69 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blog on Turgut Şimşek</title>
-    <link>https://blog.kuytu.com/tags/blog/</link>
-    <description>Recent content in Blog on Turgut Şimşek</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 18 Aug 2025 11:33:01 +0300</lastBuildDate>
-    <atom:link href="https://blog.kuytu.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>CPU daki ALU ne iş yapar? ALU&#39; nun ön beleği olsaydı ne olurdu?</title>
-      <link>https://blog.kuytu.com/posts/first-post/</link>
-      <pubDate>Mon, 18 Aug 2025 11:33:01 +0300</pubDate>
-      <guid>https://blog.kuytu.com/posts/first-post/</guid>
-      <description>&lt;p&gt;Elbette! Bilgisayarların temel çalışma mantığı &lt;strong&gt;ikili sayı sistemi (binary)&lt;/strong&gt; yani &lt;strong&gt;0 ve 1&amp;rsquo;ler&lt;/strong&gt; üzerine kuruludur. Bu sistem, elektrik sinyallerinin varlığı (1) veya yokluğu (0) şeklinde fiziksel olarak temsil edilir. Peki bu 0 ve 1&amp;rsquo;ler nasıl işleniyor? Adım adım açıklayalım:&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;1-transistörler-0-ve-1&#34;&gt;&lt;strong&gt;1. Transistörler: 0 ve 1&amp;rsquo;lerin Fiziksel Karşılığı&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;CPU&amp;rsquo;da milyarlarca &lt;strong&gt;transistör&lt;/strong&gt; (anahtar görevi gören yarı iletken devre elemanları) bulunur.&lt;/li&gt;
-&lt;li&gt;Transistörler:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Açık (ON) durumunda → &amp;ldquo;1&amp;rdquo;&lt;/strong&gt; (elektrik akımı geçer)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Kapalı (OFF) durumunda → &amp;ldquo;0&amp;rdquo;&lt;/strong&gt; (elektrik akımı geçmez)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Örneğin, bir transistör grubu &lt;strong&gt;0101&lt;/strong&gt; gibi bir ikili diziyi temsil edebilir.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;2-mantık-kapıları-logic-gates-temel-işlem-birimleri&#34;&gt;&lt;strong&gt;2. Mantık Kapıları (Logic Gates): Temel İşlem Birimleri&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Transistörlerin birleşimiyle &lt;strong&gt;mantık kapıları&lt;/strong&gt; oluşur (AND, OR, NOT, XOR gibi).&lt;/li&gt;
-&lt;li&gt;Her kapı, belirli bir mantıksal işlem yapar. Örneğin:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;AND kapısı&lt;/strong&gt;: Girişlerin &lt;strong&gt;hepsi 1 ise&lt;/strong&gt; çıkış &lt;strong&gt;1&lt;/strong&gt;, aksi halde &lt;strong&gt;0&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;OR kapısı&lt;/strong&gt;: Girişlerden &lt;strong&gt;en az biri 1 ise&lt;/strong&gt; çıkış &lt;strong&gt;1&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Örnek: &lt;code&gt;1 AND 0 = 0&lt;/code&gt;, &lt;code&gt;1 OR 0 = 1&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;3-aritmetik-işlemler-toplama-çıkarma-çarpma&#34;&gt;&lt;strong&gt;3. Aritmetik İşlemler: Toplama, Çıkarma, Çarpma&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Mantık kapıları birleşerek &lt;strong&gt;aritmetik birimleri (ALU)&lt;/strong&gt; oluşturur.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Örnek (Toplama):&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;İki bit toplamak için &lt;strong&gt;yarı toplayıcı (half-adder)&lt;/strong&gt; devresi kullanılır:
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;0 + 0 = 00&lt;/code&gt; (sonuç: 0, elde: 0)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;1 + 1 = 10&lt;/code&gt; (sonuç: 0, elde: 1)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Daha karmaşık işlemler için &lt;strong&gt;tam toplayıcılar (full-adders)&lt;/strong&gt; birleştirilir.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;4-komut-çalıştırma-cpu&#34;&gt;&lt;strong&gt;4. Komut Çalıştırma: CPU&amp;rsquo;nun Adım Adım İşleyişi&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;CPU, &lt;strong&gt;makine kodları&lt;/strong&gt; (0 ve 1&amp;rsquo;lerden oluşan komutlar) ile çalışır. Örneğin:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>https://blog.kuytu.com/posts/first-post/</link>
-      <pubDate>Sun, 14 Jan 2024 17:17:01 +0300</pubDate>
-      <guid>https://blog.kuytu.com/posts/first-post/</guid>
-      <description>&lt;p&gt;This is my first post. I am using [Hugo]&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Turgut Şimşek</title><link>https://blog.kuytu.com/tags/blog/</link><description>Recent content in Blog on Turgut Şimşek</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 18 Aug 2025 11:33:01 +0300</lastBuildDate><atom:link href="https://blog.kuytu.com/tags/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>CPU daki ALU ne iş yapar? ALU' nun ön beleği olsaydı ne olurdu?</title><link>https://blog.kuytu.com/posts/first-post/</link><pubDate>Mon, 18 Aug 2025 11:33:01 +0300</pubDate><guid>https://blog.kuytu.com/posts/first-post/</guid><description>&lt;p>Bilgisayarların temel çalışma mantığı &lt;strong>ikili sayı sistemi (binary)&lt;/strong> yani &lt;strong>0 ve 1&amp;rsquo;ler&lt;/strong> üzerine kuruludur. Bu sistem, elektrik sinyallerinin varlığı (1) veya yokluğu (0) şeklinde fiziksel olarak temsil edilir. Peki bu 0 ve 1&amp;rsquo;ler nasıl işleniyor? Adım adım açıklayalım:&lt;/p>
+&lt;hr>
+&lt;h3 id="1-transistörler-0-ve-1">&lt;strong>1. Transistörler: 0 ve 1&amp;rsquo;lerin Fiziksel Karşılığı&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>CPU&amp;rsquo;da milyarlarca &lt;strong>transistör&lt;/strong> (anahtar görevi gören yarı iletken devre elemanları) bulunur.&lt;/li>
+&lt;li>Transistörler:
+&lt;ul>
+&lt;li>&lt;strong>Açık (ON) durumunda → &amp;ldquo;1&amp;rdquo;&lt;/strong> (elektrik akımı geçer)&lt;/li>
+&lt;li>&lt;strong>Kapalı (OFF) durumunda → &amp;ldquo;0&amp;rdquo;&lt;/strong> (elektrik akımı geçmez)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Örneğin, bir transistör grubu &lt;strong>0101&lt;/strong> gibi bir ikili diziyi temsil edebilir.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="2-mantık-kapıları-logic-gates-temel-işlem-birimleri">&lt;strong>2. Mantık Kapıları (Logic Gates): Temel İşlem Birimleri&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>Transistörlerin birleşimiyle &lt;strong>mantık kapıları&lt;/strong> oluşur (AND, OR, NOT, XOR gibi).&lt;/li>
+&lt;li>Her kapı, belirli bir mantıksal işlem yapar. Örneğin:
+&lt;ul>
+&lt;li>&lt;strong>AND kapısı&lt;/strong>: Girişlerin &lt;strong>hepsi 1 ise&lt;/strong> çıkış &lt;strong>1&lt;/strong>, aksi halde &lt;strong>0&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>OR kapısı&lt;/strong>: Girişlerden &lt;strong>en az biri 1 ise&lt;/strong> çıkış &lt;strong>1&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Örnek: &lt;code>1 AND 0 = 0&lt;/code>, &lt;code>1 OR 0 = 1&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="3-aritmetik-işlemler-toplama-çıkarma-çarpma">&lt;strong>3. Aritmetik İşlemler: Toplama, Çıkarma, Çarpma&lt;/strong>&lt;/h3>
+&lt;ul>
+&lt;li>Mantık kapıları birleşerek &lt;strong>aritmetik birimleri (ALU)&lt;/strong> oluşturur.&lt;/li>
+&lt;li>&lt;strong>Örnek (Toplama):&lt;/strong>
+&lt;ul>
+&lt;li>İki bit toplamak için &lt;strong>yarı toplayıcı (half-adder)&lt;/strong> devresi kullanılır:
+&lt;ul>
+&lt;li>&lt;code>0 + 0 = 00&lt;/code> (sonuç: 0, elde: 0)&lt;/li>
+&lt;li>&lt;code>1 + 1 = 10&lt;/code> (sonuç: 0, elde: 1)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Daha karmaşık işlemler için &lt;strong>tam toplayıcılar (full-adders)&lt;/strong> birleştirilir.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="4-komut-çalıştırma-cpu">&lt;strong>4. Komut Çalıştırma: CPU&amp;rsquo;nun Adım Adım İşleyişi&lt;/strong>&lt;/h3>
+&lt;p>CPU, &lt;strong>makine kodları&lt;/strong> (0 ve 1&amp;rsquo;lerden oluşan komutlar) ile çalışır. Örneğin:&lt;/p></description></item><item><title>My First Post</title><link>https://blog.kuytu.com/posts/first-post/</link><pubDate>Sun, 14 Jan 2024 17:17:01 +0300</pubDate><guid>https://blog.kuytu.com/posts/first-post/</guid><description>&lt;p>This is my first post. I am using [Hugo]&lt;/p></description></item></channel></rss>
