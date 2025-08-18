@@ -18,7 +18,7 @@ params:
           - name: My Blog
             url: "/posts"
 
-    socialIcons: # optional
+    social: # optional
         - name: twitter
           url: https://twitter.com/geveZEUS/
         - name: linkedin
