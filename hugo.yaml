@@ -5,6 +5,7 @@ theme: "PaperMod"
 
 params:
   defaultTheme: auto
+  
   profileMode:
     enabled: true
     title: "Turgut Şimşek"
@@ -16,12 +17,21 @@ params:
       - name: "My Blog"
         url: "/posts"
 
-  socialIcons:   # <--- DOĞRUSU BU
-    - name: "Twitter"
+  socialIcons:
+    - name: "twitter"
       url: "https://twitter.com/geveZEUS/"
-    - name: "LinkedIn"
+    - name: "linkedin"
       url: "https://www.linkedin.com/in/turgutsimsek/"
-    - name: "GitHub"
+    - name: "github"
       url: "https://github.com/gevezeus/"
-    - name: "LastFM"
+    - name: "lastfm"
       url: "https://www.last.fm/user/gevezeus"
+
+# Eski Social parametresini explicitly devre dışı bırak
+social: []
+
+# Alternatif olarak params altında da tanımlayabilirsiniz
+  # social:
+  #   twitter: "geveZEUS"
+  #   linkedin: "turgutsimsek"
+  #   github: "gevezeus"
