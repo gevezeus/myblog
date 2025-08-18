@@ -2,7 +2,7 @@
 title = 'My First Post'
 date = 2024-01-14T17:17:01+03:00
 draft = false
-author = "rajendra"
+author = "tsimsek"
 comments = false
 image = ""
 menu = ""
