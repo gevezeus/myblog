@@ -1,29 +1,27 @@
-baseURL: https://blog.kuytu.com/
-languageCode: en-us
-title: Turgut Şimşek
-theme: PaperMod
-params:
-    # defaultTheme: light
-    # defaultTheme: dark
-    defaultTheme: auto # to switch between dark or light according to browser theme
-    profileMode:
-        enabled: true
-        title: Turgut Şimşek # optional default will be site title
-        # subtitle: My Blog
-        imageUrl: /pic/me.jpg # optional
-        imageTitle: Turgut Şimşek # optional
-        imageWidth: 120 # custom size
-        imageHeight: 120 # custom size
-        buttons:
-          - name: My Blog
-            url: "/posts"
+baseURL: "https://blog.kuytu.com/"
+languageCode: "en-us"
+title: "Turgut Şimşek"
+theme: "PaperMod"
 
-    socialIcons:   # <--- dikkat: "social" değil "socialIcons"
-      - name: Twitter
-        url: "https://twitter.com/geveZEUS/"
-      - name: LinkedIn
-        url: "https://www.linkedin.com/in/turgutsimsek/"
-      - name: GitHub
-        url: "https://github.com/gevezeus/"
-      - name: LastFM
-        url: "https://www.last.fm/user/gevezeus"
+params:
+  defaultTheme: auto
+  profileMode:
+    enabled: true
+    title: "Turgut Şimşek"
+    imageUrl: "/pic/me.jpg"
+    imageTitle: "Turgut Şimşek"
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: "My Blog"
+        url: "/posts"
+
+  socialIcons:   # <--- DOĞRUSU BU
+    - name: "Twitter"
+      url: "https://twitter.com/geveZEUS/"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/turgutsimsek/"
+    - name: "GitHub"
+      url: "https://github.com/gevezeus/"
+    - name: "LastFM"
+      url: "https://www.last.fm/user/gevezeus"
