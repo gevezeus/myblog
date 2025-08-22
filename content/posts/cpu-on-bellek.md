@@ -2,12 +2,12 @@
 title = "CPU daki ALU ne iş yapar? ALU' nun ön beleği olsaydı ne olurdu?"
 date = 2025-08-18T11:33:01+03:00
 draft = false
-author = "tsimsek"
+author = "Turgut Şimşek"
 comments = false
 image = ""
 menu = ""
 share = false
-tags = ["blog"]
+tags = ["CPU"]
 +++
 
 Bilgisayarların temel çalışma mantığı **ikili sayı sistemi (binary)** yani **0 ve 1'ler** üzerine kuruludur. Bu sistem, elektrik sinyallerinin varlığı (1) veya yokluğu (0) şeklinde fiziksel olarak temsil edilir. Peki bu 0 ve 1'ler nasıl işleniyor? Adım adım açıklayalım:

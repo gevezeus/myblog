@@ -6,8 +6,18 @@
     <description>Recent content on Turgut Şimşek</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Aug 2025 11:33:01 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 22 Aug 2025 11:33:01 +0300</lastBuildDate>
     <atom:link href="https://blog.kuytu.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ne olacak bu BiTCoin?</title>
+      <link>https://blog.kuytu.com/posts/btc-ne-olacak/</link>
+      <pubDate>Fri, 22 Aug 2025 11:33:01 +0300</pubDate>
+      <guid>https://blog.kuytu.com/posts/btc-ne-olacak/</guid>
+      <description>&lt;p&gt;İşimiz teknoloji ve veri olunca, çoğu kişi Kripto Paralar ve &lt;strong&gt;BTC&lt;/strong&gt; hakkında sorular soruyor. Özellikle fiyatın &lt;strong&gt;ATH&lt;/strong&gt; (All Time High / Tüm zamanların en yükseği) yaptığı bu dönemlerde sorular çok geliyor.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Finansal piyasaların dinamikleri çok farklı, teknik ve temel analiz anlatacak ya da kahinlik yapacak değilim. Öncelikle; yazının başlığında gördüğünüz, çok eski bir &lt;a href=&#34;https://www.blockchaincenter.net/en/bitcoin-rainbow-chart/&#34;&gt;gök kuşağı grafiğini&lt;/a&gt; paylaşmak istiyorum. BTC&amp;rsquo; nin fiyatının nerelere varacağı ve nerelerde aşırı fiyatlanmış ya da ucuz kalmış genel bir çerçeve çiziyor. Sitede daha güncel versiyonunu da görebilirsiniz, bilmiyorsanız bakmanızı tavsiye ederim.
+Internet üzerinde Gök Kuşağına benzer bir çok analize ulaşabilirsiniz. Bana BTC sorulduğunda, veriler üzerinden ve BTC&amp;rsquo; nin teknolojisini göz önüne aldığımda bu analizlerden en bilimsel ve bana göre en tutarlı olanı paylaşıyorum. Bu yazının konusu da bu paylaşım olacak.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>CPU daki ALU ne iş yapar? ALU&#39; nun ön beleği olsaydı ne olurdu?</title>
       <link>https://blog.kuytu.com/posts/cpu-on-bellek/</link>
