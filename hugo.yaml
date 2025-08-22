@@ -2,10 +2,18 @@ baseURL: "https://blog.kuytu.com/"
 languageCode: "en-us"
 title: "Turgut Şimşek"
 theme: "PaperMod"
-
+# Search için gerekli
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON  # ← Bu önemli!
+    
 params:
   defaultTheme: auto
-  
+
+  ShowSearch: true 
+
   profileMode:
     enabled: true
     title: "Turgut Şimşek"
@@ -27,11 +35,31 @@ params:
     - name: "lastfm"
       url: "https://www.last.fm/user/gevezeus"
 
+  # Search sayfası ayarları
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+    
 # Eski Social parametresini explicitly devre dışı bırak
 social: []
 
-# Alternatif olarak params altında da tanımlayabilirsiniz
-  # social:
-  #   twitter: "geveZEUS"
-  #   linkedin: "turgutsimsek"
-  #   github: "gevezeus"
+menu:
+  main:
+    - identifier: home
+      name: Ana Sayfa
+      url: /
+      weight: 10
+    - identifier: tags
+      name: Etiketler  
+      url: /tags/
+      weight: 20
+    - identifier: search
+      name: Arama
+      url: /search/
+      weight: 30
+
