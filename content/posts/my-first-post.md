@@ -1,6 +1,6 @@
 ---
 title: "Merhaba Dünya: Teknoloji, Akıllı Sistemler ve Ötesi"
-date: 2026-02-04T10:00:00+03:00
+date: 2024-01-01T10:00:00+03:00
 draft: false
 tags: ["Blog", "Tanıtım", "Teknoloji"]
 categories: ["Kişisel"]
@@ -15,10 +15,10 @@ Ben **Turgut Şimşek**. Teknolojiyle sadece bir kullanıcı olarak değil, ayn�
 
 Bu blogda sadece teorik bilgiler değil, bizzat mutfağında olduğum şu tarz konulardan bahsedeceğiz:
 
-*   **Yapay Zeka ve Makine Öğrenmesi:** Kendi kendine öğrenen yılanlardan (SnakeAI), otonom trade botlarına (Bot3) kadar geniş bir yelpaze.
-*   **Akıllı Ev Sistemleri:** Home Assistant ile evimi nasıl daha zeki hale getirdiğim ve asistanım Alexa ile olan teknik entegrasyonlarım.
-*   **Sistem Yönetimi:** Proxmox, yedekleme stratejileri ve sunucu sağlığı takibi gibi "perde arkası" işler.
-*   **Kripto Dünyası:** Algoritmik ticaret ve piyasa analizleri.
+*   **Yapay Zeka ve Makine Öğrenmesi:** Derin Öğrenme (Deep Learning), Pekiştirmeli Öğrenme (Reinforcement Learning) ve Doğal Dil İşleme (NLP) gibi teknikleri kullanarak otonom sistemler ve akıllı ajanlar geliştirme üzerine deneyimlerim.
+*   **Akıllı Ev Sistemleri:** IoT cihazları ve merkezi yönetim platformları ile evimi nasıl daha zeki hale getirdiğim ve asistan teknolojileriyle olan derin entegrasyonlarım.
+*   **Sistem Yönetimi:** Sunucu mimarileri, sanallaştırma teknolojileri, yedekleme stratejileri ve sistem sağlığı takibi gibi sürdürülebilir altyapı çalışmaları.
+*   **Algoritmik Stratejiler:** Veri analizi ve teknik göstergeler ışığında geliştirilen tam otonom karar verme mekanizmaları.
 
 ### 💡 Neden Bu Blog?
 
