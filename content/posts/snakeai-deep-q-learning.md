@@ -9,6 +9,8 @@ author: "Turgut Şimşek"
 
 Merhaba! Bugün sizlerle, klasik **Snake (Yılan)** oyununu bir yapay zekanın nasıl en verimli şekilde oynayabileceğini keşfettiğim projemi paylaşmak istiyorum. Bu proje sadece bir oyun botu değil, aslında modern yapay zekanın temellerinden biri olan **Pekiştirmeli Öğrenme (Reinforcement Learning)** dünyasına atılmış ciddi bir adımdır.
 
+![Snake AI Learning Process](/pic/snake_ai.gif)
+
 ### 🧠 Deep Q-Learning (DQN) Derinlemesine İnceleme
 
 Bu projede ajanın (yılanın) beyni olarak **Deep Q-Learning (DQN)** algoritmasını kullandım. Geleneksel Q-Learning'den farklı olarak DQN, durum-aksiyon ilişkilerini bir tablo yerine **Yapay Sinir Ağları (Neural Networks)** kullanarak öğrenir.
