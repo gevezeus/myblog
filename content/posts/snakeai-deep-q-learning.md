@@ -11,11 +11,9 @@ Merhaba! Bugün sizlerle, klasik **Snake (Yılan)** oyununu bir yapay zekanın n
 
 ### 🐍 Yapay Zeka Nasıl Öğreniyor?
 
-Ajanımızın eğitim sürecinden iki farklı aşamayı aşağıda görebilirsiniz. Başlangıçta tamamen rastgele hareket eden yılanımız, zamanla strateji geliştirmeyi öğreniyor:
+Ajanımızın eğitim sürecinden bir kesiti aşağıda görebilirsiniz. Zamanla tecrübe kazanan yılanımız, hedefe kilitlenmeyi ve en verimli yolu bulmayı bu şekilde öğreniyor:
 
-| Başlangıç Evresi (Keşif) | İleri Evre (Uzmanlık) |
-| :---: | :---: |
-| ![Snake AI Early Stage](/pic/snake_ai_1.gif) | ![Snake AI Expert Stage](/pic/snake_ai_2.gif) |
+![Snake AI Expert Stage](/pic/snake_ai_2.gif)
 
 ### 🧠 Deep Q-Learning (DQN) Derinlemesine İnceleme
 
