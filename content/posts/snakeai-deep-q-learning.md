@@ -9,7 +9,13 @@ author: "Turgut Şimşek"
 
 Merhaba! Bugün sizlerle, klasik **Snake (Yılan)** oyununu bir yapay zekanın nasıl en verimli şekilde oynayabileceğini keşfettiğim projemi paylaşmak istiyorum. Bu proje sadece bir oyun botu değil, aslında modern yapay zekanın temellerinden biri olan **Pekiştirmeli Öğrenme (Reinforcement Learning)** dünyasına atılmış ciddi bir adımdır.
 
-![Snake AI Learning Process](/pic/snake_ai.gif)
+### 🐍 Yapay Zeka Nasıl Öğreniyor?
+
+Ajanımızın eğitim sürecinden iki farklı aşamayı aşağıda görebilirsiniz. Başlangıçta tamamen rastgele hareket eden yılanımız, zamanla strateji geliştirmeyi öğreniyor:
+
+| Başlangıç Evresi (Keşif) | İleri Evre (Uzmanlık) |
+| :---: | :---: |
+| ![Snake AI Early Stage](/pic/snake_ai_1.gif) | ![Snake AI Expert Stage](/pic/snake_ai_2.gif) |
 
 ### 🧠 Deep Q-Learning (DQN) Derinlemesine İnceleme
 
@@ -29,28 +35,15 @@ Ajanın kararlarını veren sinir ağı, **PyTorch** ile inşa edildi:
 
 #### 3. Ödül Sistemi (Reward Engineering)
 Ajanı eğitmek için şu "havuç-sopa" yöntemini kullandım:
-- **Yemek Yeme:** +10 puan (Aferin, doğru yoldasın!)
-- **Ölüm (Duvara/Kuyruğa Çarpma):** -10 puan (Bunu bir daha yapma!)
-- **Geçen Süre:** 0 puan (Amaç en kısa sürede yemeğe ulaşmak).
-
-### 🐍 Eğitim Süreci Nasıl İlerliyor?
-
-Yılan ilk başladığında tamamen bir "bebek" gibidir; sağa sola rastgele çarpar. Ancak **Exploration vs. Exploitation** (Keşfetme ve Faydalanma) dengesi sayesinde zamanla tecrübe kazanır:
-- **Epsilon:** Başlarda yüksek tutulur ki yılan dünyayı keşfetsin.
-- **Memory (Deneyim Tekrarı):** Geçmişteki hamlelerini hatırlar ve bu deneyimlerden rastgele örnekler çekerek öğrenmesini pekiştirir.
-
-Birkaç yüz oyun sonunda yılanın elmayı gördüğü anda saniyeler içinde hedefe kitlenmesini ve kendi gövdesine çarpmamak için yaptığı kıvrak manevraları izlemek gerçekten büyüleyici.
+- **Yemek Yeme:** +10 puan
+- **Ölüm (Duvara/Kuyruğa Çarpma):** -10 puan
+- **Geçen Süre:** 0 puan
 
 ### 🚀 Teknik Kurulum ve Kaynak Kodlar
 
-Projenin tüm kodları açık kaynak olarak GitHub'da mevcut. Kendi makinenizde eğitmek veya canlı izlemek için:
+Projenin tüm kodları açık kaynak olarak GitHub'da mevcut:
 
 👉 [SnakeAI GitHub Deposu](https://github.com/gevezeus/SnakeAI)
-
-**Gerekli Kütüphaneler:**
-- `Pygame`: Görselleştirme için.
-- `PyTorch`: Sinir ağını eğitmek için.
-- `Numpy`: Matematiksel hesaplamalar için.
 
 ```bash
 # Kurulum
@@ -59,9 +52,5 @@ pip install pygame torch numpy
 # Başlatma
 python agent.py
 ```
-
-Bu proje, yapay zekanın "deneme-yanılma" yoluyla ne kadar kompleks problemleri çözebileceğinin küçük ama etkili bir kanıtıdır. Gelecekte bu modeli daha karmaşık oyunlar veya gerçek dünya senaryoları için geliştirmeyi planlıyorum.
-
-Sorularınız ve katkılarınız için GitHub üzerinden bir Issue açabilir veya yorumlarda belirtebilirsiniz!
 
 ⚡ **Turgut Şimşek**
