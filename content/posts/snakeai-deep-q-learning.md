@@ -13,7 +13,7 @@ Merhaba! Bugün sizlerle, klasik **Snake (Yılan)** oyununu bir yapay zekanın n
 
 Ajanımızın eğitim sürecinden bir kesiti aşağıda görebilirsiniz. Zamanla tecrübe kazanan yılanımız, hedefe kilitlenmeyi ve en verimli yolu bulmayı bu şekilde öğreniyor:
 
-![Snake AI Expert Stage](/pic/snake_ai_2.gif)
+![Snake AI Expert Stage](/pic/snake_ai_final_real.gif)
 
 ### 🧠 Deep Q-Learning (DQN) Derinlemesine İnceleme
 
