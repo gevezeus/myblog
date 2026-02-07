@@ -1,31 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Turgut Şimşek</title>
-    <link>https://blog.kuytu.com/</link>
-    <description>Recent content on Turgut Şimşek</description>
-    <generator>Hugo -- 0.148.2</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 22 Aug 2025 11:33:01 +0300</lastBuildDate>
-    <atom:link href="https://blog.kuytu.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Ne olacak bu BiTCoin?</title>
-      <link>https://blog.kuytu.com/posts/btc-ne-olacak/</link>
-      <pubDate>Fri, 22 Aug 2025 11:33:01 +0300</pubDate>
-      <guid>https://blog.kuytu.com/posts/btc-ne-olacak/</guid>
-      <description>&lt;p&gt;İşimiz teknoloji ve veri olunca, çoğu kişi Kripto Paralar ve &lt;strong&gt;BTC&lt;/strong&gt; hakkında sorular soruyor. Özellikle fiyatın &lt;strong&gt;ATH&lt;/strong&gt; (All Time High / Tüm zamanların en yükseği) yaptığı bu dönemlerde sorular çok geliyor.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Turgut Simsek Blog</title><link>https://blog.kuytu.com/</link><description>Recent content on Turgut Simsek Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 07 Feb 2026 18:00:00 +0300</lastBuildDate><atom:link href="https://blog.kuytu.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Yılan Oyunu ve Yapay Zeka: Deep Q-Learning ile Kendi Kendine Öğrenen Ajan</title><link>https://blog.kuytu.com/posts/snakeai-deep-q-learning/</link><pubDate>Sat, 07 Feb 2026 18:00:00 +0300</pubDate><guid>https://blog.kuytu.com/posts/snakeai-deep-q-learning/</guid><description>&lt;p&gt;Merhaba! Bugün sizlerle, klasik &lt;strong&gt;Snake (Yılan)&lt;/strong&gt; oyununu bir yapay zekanın nasıl en verimli şekilde oynayabileceğini keşfettiğim projemi paylaşmak istiyorum. Bu proje sadece bir oyun botu değil, aslında modern yapay zekanın temellerinden biri olan &lt;strong&gt;Pekiştirmeli Öğrenme (Reinforcement Learning)&lt;/strong&gt; dünyasına atılmış ciddi bir adımdır.&lt;/p&gt;
+&lt;h3 id="-deep-q-learning-dqn-derinlemesine-inceleme"&gt;🧠 Deep Q-Learning (DQN) Derinlemesine İnceleme&lt;/h3&gt;
+&lt;p&gt;Bu projede ajanın (yılanın) beyni olarak &lt;strong&gt;Deep Q-Learning (DQN)&lt;/strong&gt; algoritmasını kullandım. Geleneksel Q-Learning&amp;rsquo;den farklı olarak DQN, durum-aksiyon ilişkilerini bir tablo yerine &lt;strong&gt;Yapay Sinir Ağları (Neural Networks)&lt;/strong&gt; kullanarak öğrenir.&lt;/p&gt;</description></item><item><title>Ne olacak bu BiTCoin?</title><link>https://blog.kuytu.com/posts/btc-ne-olacak/</link><pubDate>Fri, 22 Aug 2025 11:33:01 +0300</pubDate><guid>https://blog.kuytu.com/posts/btc-ne-olacak/</guid><description>&lt;p&gt;İşimiz teknoloji ve veri olunca, çoğu kişi Kripto Paralar ve &lt;strong&gt;BTC&lt;/strong&gt; hakkında sorular soruyor. Özellikle fiyatın &lt;strong&gt;ATH&lt;/strong&gt; (All Time High / Tüm zamanların en yükseği) yaptığı bu dönemlerde sorular çok geliyor.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Finansal piyasaların dinamikleri çok farklı, teknik ve temel analiz anlatacak ya da kahinlik yapacak değilim. Öncelikle; yazının başlığında gördüğünüz, çok eski bir &lt;a href=&#34;https://www.blockchaincenter.net/en/bitcoin-rainbow-chart/&#34;&gt;gök kuşağı grafiğini&lt;/a&gt; paylaşmak istiyorum. BTC&amp;rsquo; nin fiyatının nerelere varacağı ve nerelerde aşırı fiyatlanmış ya da ucuz kalmış genel bir çerçeve çiziyor. Sitede daha güncel versiyonunu da görebilirsiniz, bilmiyorsanız bakmanızı tavsiye ederim.
-Internet üzerinde Gök Kuşağına benzer bir çok analize ulaşabilirsiniz. Bana BTC sorulduğunda, veriler üzerinden ve BTC&amp;rsquo; nin teknolojisini göz önüne aldığımda bu analizlerden en bilimsel ve bana göre en tutarlı olanı paylaşıyorum. Bu yazının konusu da bu paylaşım olacak.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>CPU daki ALU ne iş yapar? ALU&#39; nun ön beleği olsaydı ne olurdu?</title>
-      <link>https://blog.kuytu.com/posts/cpu-on-bellek/</link>
-      <pubDate>Mon, 18 Aug 2025 11:33:01 +0300</pubDate>
-      <guid>https://blog.kuytu.com/posts/cpu-on-bellek/</guid>
-      <description>&lt;p&gt;Bilgisayarların temel çalışma mantığı &lt;strong&gt;ikili sayı sistemi (binary)&lt;/strong&gt; yani &lt;strong&gt;0 ve 1&amp;rsquo;ler&lt;/strong&gt; üzerine kuruludur. Bu sistem, elektrik sinyallerinin varlığı (1) veya yokluğu (0) şeklinde fiziksel olarak temsil edilir. Peki bu 0 ve 1&amp;rsquo;ler nasıl işleniyor? Adım adım açıklayalım:&lt;/p&gt;
+&lt;p&gt;Finansal piyasaların dinamikleri çok farklı, teknik ve temel analiz anlatacak ya da kahinlik yapacak değilim. Öncelikle; yazının başlığında gördüğünüz, çok eski bir &lt;a href="https://www.blockchaincenter.net/en/bitcoin-rainbow-chart/"&gt;gök kuşağı grafiğini&lt;/a&gt; paylaşmak istiyorum. BTC&amp;rsquo; nin fiyatının nerelere varacağı ve nerelerde aşırı fiyatlanmış ya da ucuz kalmış genel bir çerçeve çiziyor. Sitede daha güncel versiyonunu da görebilirsiniz, bilmiyorsanız bakmanızı tavsiye ederim.
+Internet üzerinde Gök Kuşağına benzer bir çok analize ulaşabilirsiniz. Bana BTC sorulduğunda, veriler üzerinden ve BTC&amp;rsquo; nin teknolojisini göz önüne aldığımda bu analizlerden en bilimsel ve bana göre en tutarlı olanı paylaşıyorum. Bu yazının konusu da bu paylaşım olacak.&lt;/p&gt;</description></item><item><title>CPU daki ALU ne iş yapar? ALU' nun ön beleği olsaydı ne olurdu?</title><link>https://blog.kuytu.com/posts/cpu-on-bellek/</link><pubDate>Mon, 18 Aug 2025 11:33:01 +0300</pubDate><guid>https://blog.kuytu.com/posts/cpu-on-bellek/</guid><description>&lt;p&gt;Bilgisayarların temel çalışma mantığı &lt;strong&gt;ikili sayı sistemi (binary)&lt;/strong&gt; yani &lt;strong&gt;0 ve 1&amp;rsquo;ler&lt;/strong&gt; üzerine kuruludur. Bu sistem, elektrik sinyallerinin varlığı (1) veya yokluğu (0) şeklinde fiziksel olarak temsil edilir. Peki bu 0 ve 1&amp;rsquo;ler nasıl işleniyor? Adım adım açıklayalım:&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;1-transistörler-0-ve-1&#34;&gt;&lt;strong&gt;1. Transistörler: 0 ve 1&amp;rsquo;lerin Fiziksel Karşılığı&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id="1-transistörler-0-ve-1"&gt;&lt;strong&gt;1. Transistörler: 0 ve 1&amp;rsquo;lerin Fiziksel Karşılığı&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;CPU&amp;rsquo;da milyarlarca &lt;strong&gt;transistör&lt;/strong&gt; (anahtar görevi gören yarı iletken devre elemanları) bulunur.&lt;/li&gt;
 &lt;li&gt;Transistörler:
@@ -37,7 +17,7 @@ Internet üzerinde Gök Kuşağına benzer bir çok analize ulaşabilirsiniz. Ba
 &lt;li&gt;Örneğin, bir transistör grubu &lt;strong&gt;0101&lt;/strong&gt; gibi bir ikili diziyi temsil edebilir.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;2-mantık-kapıları-logic-gates-temel-işlem-birimleri&#34;&gt;&lt;strong&gt;2. Mantık Kapıları (Logic Gates): Temel İşlem Birimleri&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id="2-mantık-kapıları-logic-gates-temel-işlem-birimleri"&gt;&lt;strong&gt;2. Mantık Kapıları (Logic Gates): Temel İşlem Birimleri&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Transistörlerin birleşimiyle &lt;strong&gt;mantık kapıları&lt;/strong&gt; oluşur (AND, OR, NOT, XOR gibi).&lt;/li&gt;
 &lt;li&gt;Her kapı, belirli bir mantıksal işlem yapar. Örneğin:
@@ -49,7 +29,7 @@ Internet üzerinde Gök Kuşağına benzer bir çok analize ulaşabilirsiniz. Ba
 &lt;li&gt;Örnek: &lt;code&gt;1 AND 0 = 0&lt;/code&gt;, &lt;code&gt;1 OR 0 = 1&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;3-aritmetik-işlemler-toplama-çıkarma-çarpma&#34;&gt;&lt;strong&gt;3. Aritmetik İşlemler: Toplama, Çıkarma, Çarpma&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id="3-aritmetik-işlemler-toplama-çıkarma-çarpma"&gt;&lt;strong&gt;3. Aritmetik İşlemler: Toplama, Çıkarma, Çarpma&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Mantık kapıları birleşerek &lt;strong&gt;aritmetik birimleri (ALU)&lt;/strong&gt; oluşturur.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Örnek (Toplama):&lt;/strong&gt;
@@ -65,15 +45,5 @@ Internet üzerinde Gök Kuşağına benzer bir çok analize ulaşabilirsiniz. Ba
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;4-komut-çalıştırma-cpu&#34;&gt;&lt;strong&gt;4. Komut Çalıştırma: CPU&amp;rsquo;nun Adım Adım İşleyişi&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;CPU, &lt;strong&gt;makine kodları&lt;/strong&gt; (0 ve 1&amp;rsquo;lerden oluşan komutlar) ile çalışır. Örneğin:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>https://blog.kuytu.com/posts/first-post/</link>
-      <pubDate>Sun, 14 Jan 2024 17:17:01 +0300</pubDate>
-      <guid>https://blog.kuytu.com/posts/first-post/</guid>
-      <description>&lt;p&gt;This is my first post. I am using [Hugo]&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+&lt;h3 id="4-komut-çalıştırma-cpu"&gt;&lt;strong&gt;4. Komut Çalıştırma: CPU&amp;rsquo;nun Adım Adım İşleyişi&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;CPU, &lt;strong&gt;makine kodları&lt;/strong&gt; (0 ve 1&amp;rsquo;lerden oluşan komutlar) ile çalışır. Örneğin:&lt;/p&gt;</description></item><item><title>My First Post</title><link>https://blog.kuytu.com/posts/first-post/</link><pubDate>Sun, 14 Jan 2024 17:17:01 +0300</pubDate><guid>https://blog.kuytu.com/posts/first-post/</guid><description>&lt;p&gt;This is my first post. I am using [Hugo]&lt;/p&gt;</description></item><item><title>Arama</title><link>https://blog.kuytu.com/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.kuytu.com/search/</guid><description>search</description></item></channel></rss>
