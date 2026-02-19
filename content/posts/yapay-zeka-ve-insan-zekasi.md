@@ -1,6 +1,6 @@
 ---
 title: "Yapay Zeka ve İnsan Zekâsı Üzerine Bir Farkındalık"
-date: 2026-02-19T12:47:00+03:00
+date: 2026-02-19T12:00:00+03:00
 draft: false
 tags: ["Yapay Zeka", "AI", "Felsefe", "İnsan Zekası", "LLM"]
 categories: ["Blog", "Düşünce"]
