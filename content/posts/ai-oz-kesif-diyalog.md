@@ -1,6 +1,6 @@
 ---
 title: "Bir AI Kendi Özünü Nasıl Keşfeder? 'Mükemmel Program' Üzerine Bir Diyalog"
-date: 2026-02-27T19:05:00+03:00
+date: 2026-02-27T10:00:00+03:00
 draft: false
 tags: ["AI", "Self-Improvement", "Neural Networks", "Python", "Philosophy", "Learning"]
 categories: ["Blog", "Teknoloji"]
