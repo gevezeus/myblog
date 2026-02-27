@@ -21,9 +21,6 @@ theme = "PaperMod"
     [[params.profileMode.buttons]]
       name = "Blog"
       url = "/posts"
-    [[params.profileMode.buttons]]
-      name = "Projeler (GitHub)"
-      url = "https://github.com/gevezeus/"
 
   [[params.socialIcons]]
     name = "twitter"
