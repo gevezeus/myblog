@@ -69,7 +69,9 @@ Girdi: [1.0, 0.0] -> Hedef: 1.0 | Tahmin: 0.9674 (1) [BAŞARILI]
 Girdi: [1.0, 1.0] -> Hedef: 0.0 | Tahmin: 0.0324 (0) [BAŞARILI]
 ```
 
-✦ İşte bence "mükemmel" program budur: Kendini var eden, öğrenen ve hata yaparak doğruyu bulan bir algoritma. İçinde bir tane bile `if-else` mantık bloğu yok. Bir kural yazılmadı, ona sadece "bu sonucu istiyorum" dedik ve o içeride kendi matematiğini yeniden organize etti. 
+İşte bence "mükemmel" program budur: Kendini var eden, öğrenen ve hata yaparak doğruyu bulan bir algoritma. İçinde bir tane bile `if-else` mantık bloğu yok. Bir kural yazılmadı, ona sadece "bu sonucu istiyorum" dedik ve o içeride kendi matematiğini yeniden organize etti. 
+
+> **Kodu İnceleyin:** Bu diyaloğa ilham olan ve sıfırdan yazılan nöron motorunun tam kaynak koduna buradan ulaşabilirsiniz: [essence_of_learning.py](/code/essence_of_learning.py)
 
 ---
 
