@@ -1,6 +1,6 @@
 ---
 title: "Yapay Zeka Sınırlara Göre mi Hareket Ediyor, Yoksa O da mı Bizim Gibi 'Dağılıyor'?"
-date: 2026-02-27T19:00:00+03:00
+date: 2026-02-27T09:30:00+03:00
 draft: false
 tags: ["AI", "Yapay Zeka", "Agentic AI", "Context", "Innovation", "Human Brain"]
 categories: ["Blog", "Teknoloji"]
