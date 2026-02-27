@@ -12,14 +12,14 @@ theme = "PaperMod"
   ShowSearch = true
 
   [params.profileMode]
-    enabled = false
+    enabled = true
     title = "Turgut Şimşek"
     imageUrl = "/pic/me.jpg"
     imageTitle = "Turgut Şimşek"
     imageWidth = 120
     imageHeight = 120
     [[params.profileMode.buttons]]
-      name = "My Blog"
+      name = "Blog Yazıları"
       url = "/posts"
 
   [[params.socialIcons]]
@@ -50,6 +50,11 @@ theme = "PaperMod"
     name = "Ana Sayfa"
     url = "/"
     weight = 10
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 15
   [[menu.main]]
     identifier = "tags"
     name = "Etiketler"
