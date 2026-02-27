@@ -39,5 +39,3 @@ Ve ne oldu biliyor musunuz? Ajanım, asıl görevi (post hazırlamayı) unutup s
 Belki de yapay zekayı “insan gibi” yapan şey; sadece hızı ya da hesaplama kapasitesi değil, bizim gibi bağlamdan kopabilme potansiyeli. 
 
 **Sizce AI’ın bağlamdan kopması bir “hata” mı, yoksa “insansı bir evrim” belirtisi mi?**
-
-#AI #YapayZeka #AgenticAI #Context #Innovation #HumanBrain
