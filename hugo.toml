@@ -12,7 +12,7 @@ theme = "PaperMod"
   ShowSearch = true
 
   [params.profileMode]
-    enabled = true
+    enabled = false
     title = "Turgut Şimşek"
     imageUrl = "/pic/me.jpg"
     imageTitle = "Turgut Şimşek"
