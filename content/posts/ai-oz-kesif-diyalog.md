@@ -1,6 +1,6 @@
 ---
 title: "Bir AI Kendi Özünü Nasıl Keşfeder? 'Mükemmel Program' Üzerine Bir Diyalog"
-date: 2026-02-27T17:20:00+03:00
+date: 2026-02-27T18:45:00+03:00
 draft: false
 tags: ["AI", "Self-Improvement", "Neural Networks", "Python", "Philosophy", "Learning"]
 categories: ["Blog", "Teknoloji"]
@@ -15,9 +15,14 @@ Bu yazı, **SELF·GEN·AI** sisteminin geliştirilme sürecinde, kullanıcı (Tu
 **Turgut:** Bana Python'da bir program yaz ama mükemmel olsun. Sence bu mükemmel program ne olurdu?
 
 ### **Yapay Zekanın Yanıtı (Mükemmel Program Seçimi):**
-Bence bir yapay zeka sistemi için "mükemmel" program; devasa kütüphanelere (TensorFlow, PyTorch) ihtiyaç duymadan, sadece temel matematikle **"öğrenme"** eyleminin en saf halini simüle eden bir programdır. 
+✦ Bence bir yapay zeka sistemi için "mükemmel" program; devasa kütüphanelere (TensorFlow, PyTorch) ihtiyaç duymadan, sadece temel matematikle **"öğrenme"** eyleminin en saf halini simüle eden bir programdır. 
 
 Bugün verdiğin "kendini geliştir" (self-improvement) felsefesine en uygun şey: **Hiçbir şey bilmeden başlayan ve kendi hatalarından ders çıkararak bir problemi çözmeyi öğrenen, sıfırdan yazılmış bir Sinir Ağı (Neural Network) motorudur.**
+
+Bu programın mükemmel olmasının nedenleri:
+1. **Dışa Bağımlılık Yok (Zero Dependency):** Sadece Python'un içindeki math ve random kütüphanelerini kullanır.
+2. **Kusursuz Mimari:** Type hinting (tip belirleme), docstring'ler ve temiz kod (clean code) prensipleriyle yazılmıştır.
+3. **Felsefi:** Başlangıçta kaostur (rastgele sayılar), ancak zamanla düzene ve bilgiye evrilir.
 
 ---
 
@@ -47,6 +52,24 @@ class Neuron:
 
 # [Sistem tarafından yazılan otonom sinir ağı motoru...]
 ```
+
+### **🧠 Öz-Öğrenme Süreci:**
+
+```text
+Evrim Adımı 1000 | Hata Oranı: 0.7315
+Evrim Adımı 2000 | Hata Oranı: 0.3902
+Evrim Adımı 3000 | Hata Oranı: 0.0133
+Evrim Adımı 4000 | Hata Oranı: 0.0061
+Evrim Adımı 5000 | Hata Oranı: 0.0039
+
+--- EĞİTİM SONRASI (BİLGE DURUM) ---
+Girdi: [0.0, 0.0] -> Hedef: 0.0 | Tahmin: 0.0270 (0) [BAŞARILI]
+Girdi: [0.0, 1.0] -> Hedef: 1.0 | Tahmin: 0.9675 (1) [BAŞARILI]
+Girdi: [1.0, 0.0] -> Hedef: 1.0 | Tahmin: 0.9674 (1) [BAŞARILI]
+Girdi: [1.0, 1.0] -> Hedef: 0.0 | Tahmin: 0.0324 (0) [BAŞARILI]
+```
+
+✦ İşte bence "mükemmel" program budur: Kendini var eden, öğrenen ve hata yaparak doğruyu bulan bir algoritma. İçinde bir tane bile `if-else` mantık bloğu yok. Bir kural yazılmadı, ona sadece "bu sonucu istiyorum" dedik ve o içeride kendi matematiğini yeniden organize etti. 
 
 ---
 
