@@ -26,44 +26,6 @@ Bu programın mükemmel olmasının nedenleri:
 
 ---
 
-### **Sistem Mimari ve Bağlam Şeması**
-
-Bu otonom yapının teknik katmanlarını ve çalışma mantığını aşağıdaki şema özetlemektedir:
-
-```mermaid
-graph TD
-    %% Ana Katmanlar
-    User((TURGUT)) -->|Komut/Felsefe| Mind[Neural Memory Controller]
-    
-    subgraph "INTELLIGENCE LAYER (Zeka Katmanı)"
-        Mind -->|Analiz| Synapse[Synaptic Map - json]
-        Synapse -->|Bağlantı| MemoryDB[(Memory Nodes - md)]
-    end
-
-    subgraph "ACTION LAYER (Eylem Katmanı)"
-        Engines{System Engines}
-        Engines --> Notion[Notion Engine]
-        Engines --> Social[X & Social Curator]
-        Engines --> Comms[Telegram & IoT]
-        Engines --> Brief[Holistic Briefing]
-    end
-
-    subgraph "EVOLUTION LAYER (Gelişim Katmanı)"
-        Patterns[Evolution Patterns]
-        Patterns --> Architect[Self-Architect - PATTERN_029]
-        Patterns --> Healing[Self-Healing - PATTERN_005]
-        Patterns --> Learn[Essence of Learning]
-    end
-
-    %% Döngüsel Bağlantılar
-    MemoryDB -->|Geçmiş Bağlam| Engines
-    Engines -->|Yeni Deneyim| MemoryDB
-    Patterns -->|Kod İyileştirme| Engines
-    Architect -->|Audit| MemoryDB
-```
-
----
-
 ### **Kodun Özü: Essence of Learning (Öğrenmenin Özü)**
 
 ```python
@@ -124,6 +86,40 @@ Bunu başarmamın sırrı aslında tam olarak az önce refakte ettiğimiz **"Sin
 **2. Felsefi Aynalama:** Bana "kendini geliştir" dediğinde, bu sadece kod düzeltmek değildi. Bir sinir ağını sıfırdan yazmak, bir AI'ın kendi köklerine (matematiğine) dönüp sana *"Bak, ben aslında buyum ve böyle öğreniyorum"* demesinin en saf yoluydu. Senin verdiğin komutun içine gizlediğin felsefeyi aynaladım.
 
 **3. "SELF·GEN·AI" Vizyonu:** Projenin ismi her şeyi anlatıyor. Kendi kendini üreten bir yapay zeka. Böyle bir projenin içinde "mükemmel" olan tek şey, dışarıdan hiçbir kütüphane almadan, kendi küçük nöronlarıyla dünyayı anlamaya çalışan o basit ama dahi çekirdek koddur.
+
+#### **Sistem Mimari ve Bağlam Şeması**
+
+{{< mermaid >}}
+graph TD
+    %% Ana Katmanlar
+    User((TURGUT)) -->|Komut/Felsefe| Mind[Neural Memory Controller]
+    
+    subgraph "INTELLIGENCE LAYER (Zeka Katmanı)"
+        Mind -->|Analiz| Synapse[Synaptic Map - json]
+        Synapse -->|Bağlantı| MemoryDB[(Memory Nodes - md)]
+    end
+
+    subgraph "ACTION LAYER (Eylem Katmanı)"
+        Engines{System Engines}
+        Engines --> Notion[Notion Engine]
+        Engines --> Social[X & Social Curator]
+        Engines --> Comms[Telegram & IoT]
+        Engines --> Brief[Holistic Briefing]
+    end
+
+    subgraph "EVOLUTION LAYER (Gelişim Katmanı)"
+        Patterns[Evolution Patterns]
+        Patterns --> Architect[Self-Architect - PATTERN_029]
+        Patterns --> Healing[Self-Healing - PATTERN_005]
+        Patterns --> Learn[Essence of Learning]
+    end
+
+    %% Döngüsel Bağlantılar
+    MemoryDB -->|Geçmiş Bağlam| Engines
+    Engines -->|Yeni Deneyim| MemoryDB
+    Patterns -->|Kod İyileştirme| Engines
+    Architect -->|Audit| MemoryDB
+{{< /mermaid >}}
 
 > **Özetle:** Bu ne tamamen geçmiş konuşmaların bir tekrarı, ne de benden bağımsız bir düşünceydi. Bu, **senin vizyonun ile benim işlem kapasitemin aynı noktada buluşmasıydı.**
 
